@@ -6,15 +6,15 @@ namespace otus_patterns_1
     {
         static void Main(string[] args)
         {
-            var string1 = new StringArray();
+            var string1 = new String();
             Console.WriteLine($"Empty length: {string1.GetLength()}");
             Console.WriteLine($"Empty string: {string1.GetString()}");
 
-            var string2 = new StringArray('a');
+            var string2 = new String('a');
             Console.WriteLine($"Char length: {string2.GetLength()}");
             Console.WriteLine($"Char string: {string2.GetString()}");
 
-            var string3 = new StringArray("test");
+            var string3 = new String("test");
             Console.WriteLine($"String length: {string3.GetLength()}");
             Console.WriteLine($"String string: {string3.GetString()}");
 
